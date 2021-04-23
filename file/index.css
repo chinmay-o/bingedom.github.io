@@ -1,38 +1,51 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-
-.web {
-
-  display: none;
+@font-face {
+   font-family: myFont;
+   src: url(fonts/Montserrat-Light.otf);
 }
 
 body {
 
   background-color: #010001;
   background-image: url(images/bg.png);
-  background-repeat: repeat;
-  background-size: cover;
+  /* background-repeat: repeat;
+  background-size: cover; */
 }
 
-video {
+.logo-reveal-anim img {
 
-  width: 80%;
-  background: transparent;
+  width: 100%;
   display: block;
   margin: auto;
-  margin-top: 10%;
+}
+
+.logo-reveal-img img {
+
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.logo-reveal-anim {
+
+  display: block;
+}
+
+.logo-reveal-img {
+
+  display: none;
 }
 
 .MainContent {
 
   display: none;
-  margin-top: 30px;
+  margin-top: -100px;
 }
 
 .MainContent h2 {
 
   text-align: center;
-  /* font-family: 'Comfortaa', cursive; */
+  font-family: myFont;
   font-weight: 400;
   font-size: 18px;
   color: #f4f3f3;
@@ -50,9 +63,8 @@ video {
 
 @media only screen and (max-width: 767px) {
 
-  video {
+  .web {
 
-    width: 100%;
     margin-top: 34%;
   }
 
@@ -60,13 +72,17 @@ video {
 
     margin-top: 70px;
   }
+
+  .MainContent h2 {
+
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
 
-  video {
+  .web {
 
-    width: 100%;
     margin-top: 50%;
   }
 }
