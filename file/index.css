@@ -51,6 +51,14 @@ body {
   color: #f4f3f3;
 }
 
+.youtube-link {
+
+  text-align: center;
+  display: block;
+  margin: auto;
+  color: #abfe05;
+}
+
 .w3-animate-bottom {
   animation: floatup 3s forwards;
 }
