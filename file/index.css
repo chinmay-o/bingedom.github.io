@@ -1,12 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
+.web {
+
+  display: none;
+}
+
 body {
 
   background-color: #010001;
-  /* background-image: url(images/bg.png);
+  background-image: url(images/bg.png);
   background-repeat: repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 
 video {
@@ -27,7 +32,7 @@ video {
 .MainContent h2 {
 
   text-align: center;
-  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Comfortaa', cursive; */
   font-weight: 400;
   font-size: 18px;
   color: #f4f3f3;
