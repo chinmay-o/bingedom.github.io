@@ -9,7 +9,7 @@ setTimeout(function(){
 
   $(".logo-reveal-anim").css("display", "block");
 
-}, 4600);
+}, 4500);
 
 setTimeout(function(){
 
