@@ -1,18 +1,30 @@
 
 setTimeout(function(){
 
-  $(".logo-reveal-anim").css("display", "none");
+  $(".logo-reveal-img-pre").css("display", "none");
 
-}, 4259);
+}, 4600);
 
 setTimeout(function(){
 
-  $(".logo-reveal-img").css("display", "block");
+  $(".logo-reveal-anim").css("display", "block");
 
-}, 4260);
+}, 4600);
+
+setTimeout(function(){
+
+  $(".logo-reveal-anim").css("display", "none");
+
+}, 7590);
+
+setTimeout(function(){
+
+  $(".logo-reveal-img-post").css("display", "block");
+
+}, 7590);
 
 setTimeout(function(){
 
   $(".MainContent").css("display", "block");
 
-}, 4800);
+}, 8000);

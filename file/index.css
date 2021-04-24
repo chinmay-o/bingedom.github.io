@@ -12,6 +12,13 @@ body {
   display: none;
 }
 
+.logo-reveal-img-pre img {
+
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
 .logo-reveal-anim img {
 
   width: 100%;
@@ -19,19 +26,24 @@ body {
   margin: auto;
 }
 
-.logo-reveal-img img {
+.logo-reveal-img-post img {
 
   width: 100%;
   display: block;
   margin: auto;
 }
 
-.logo-reveal-anim {
+.logo-reveal-img-pre {
 
   display: block;
 }
 
-.logo-reveal-img {
+.logo-reveal-anim {
+
+  display: none;
+}
+
+.logo-reveal-img-post {
 
   display: none;
 }
