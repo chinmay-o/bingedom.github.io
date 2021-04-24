@@ -5,7 +5,7 @@ setTimeout(function(){
   $(".logo-reveal-anim").css("display", "none");
   $(".logo-reveal-img").css("display", "block");
 
-}, 4220);
+}, 4260);
 
 setTimeout(function(){
 
