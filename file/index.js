@@ -1,9 +1,13 @@
 
+setTimeout(function(){
+
+  $(".logo-reveal-img").css("display", "block");
+
+}, 4256);
 
 setTimeout(function(){
 
   $(".logo-reveal-anim").css("display", "none");
-  $(".logo-reveal-img").css("display", "block");
 
 }, 4260);
 
