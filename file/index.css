@@ -12,6 +12,11 @@ body {
   background-size: auto;
 }
 
+.logo-reveal-anim .mobile {
+
+  display: none;
+}
+
 .logo-reveal-anim img {
 
   width: 100%;
@@ -87,10 +92,20 @@ body {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
 
   .web {
 
     margin-top: 50%;
+  }
+
+  .logo-reveal-anim .web {
+
+    display: none;
+  }
+
+  .logo-reveal-anim .mobile {
+
+    display: block;
   }
 }
