@@ -1,13 +1,13 @@
 
 setTimeout(function(){
 
-  $(".logo-reveal-img").css("display", "block");
+  $(".logo-reveal-anim").css("display", "none");
 
-}, 4256);
+}, 4259);
 
 setTimeout(function(){
 
-  $(".logo-reveal-anim").css("display", "none");
+  $(".logo-reveal-img").css("display", "block");
 
 }, 4260);
 
