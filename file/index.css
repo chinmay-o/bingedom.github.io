@@ -1,9 +1,4 @@
 
-@font-face {
-   font-family: font;
-   src: url(fonts/Montserrat-Light.otf);
-}
-
 body {
 
   background-color: #010001;
@@ -50,7 +45,7 @@ body {
 .MainContent h2 {
 
   text-align: center;
-  font-family: font;
+  font-family: "Montserrat", monospace;
   font-weight: 400;
   font-size: 18px;
   color: #f4f3f3;
