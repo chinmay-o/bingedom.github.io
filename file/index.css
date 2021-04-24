@@ -1,6 +1,6 @@
 
 @font-face {
-   font-family: myFont;
+   font-family: font;
    src: url(fonts/Montserrat-Light.otf);
 }
 
@@ -50,7 +50,7 @@ body {
 .MainContent h2 {
 
   text-align: center;
-  font-family: myFont;
+  font-family: font;
   font-weight: 400;
   font-size: 18px;
   color: #f4f3f3;
