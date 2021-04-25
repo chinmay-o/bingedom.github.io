@@ -12,7 +12,7 @@ body {
   display: none;
 }
 
-.pre-img {
+/* .pre-img {
 
   content: url(images/bingedom-logo-pre.png);
 }
@@ -25,7 +25,7 @@ body {
 .post-img {
 
   content: url(images/bingedom-logo-post.png);
-}
+} */
 
 .logo-reveal-img-pre img {
 
